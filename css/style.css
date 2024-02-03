@@ -52,3 +52,21 @@ h1 {
   text-decoration: none;
   box-shadow: var(--box-shadow);
 }
+
+.social-links {
+  padding: 100px;
+  padding-bottom: 0;
+}
+
+.fa-facebook {
+  color: #a55233;
+}
+
+.fa-instagram {
+  color: #a55233;
+}
+
+.fa-linkedin {
+  color: #a55233;
+  --fa-border-color: white;
+}
