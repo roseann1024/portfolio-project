@@ -3,13 +3,13 @@
 
   --secondary-font-family: "Playfair Display", serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  --primary-font-color: #bd3246;
+  --primary-font-color: #e2bf81;
   --secondary-color: #a55233;
 }
 
 body {
-  background: #dedede;
-  color: #e0ffcd;
+  background: var(--primary-font-color);
+  color: var(--secondary-color);
   font-family: var(--primary-font-family);
   color: var(--primary-font-color);
 }
@@ -20,7 +20,8 @@ body {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 130px 0;
+  padding: 100px 0;
+  padding-bottom: 0;
 }
 .profile-pic {
   width: 200px;
@@ -54,19 +55,18 @@ h1 {
 }
 
 .social-links {
-  padding: 100px;
+  padding: 50px;
   padding-bottom: 0;
 }
 
 .fa-facebook {
-  color: #a55233;
+  color: var(--primary-font-color);
 }
 
 .fa-instagram {
-  color: #a55233;
+  color: var(--primary-font-color);
 }
 
 .fa-linkedin {
-  color: #a55233;
-  --fa-border-color: white;
+  color: var(--primary-font-color);
 }
