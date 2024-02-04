@@ -8,19 +8,20 @@
 }
 
 body {
-  background: var(--primary-font-color);
+  background: white;
   color: var(--secondary-color);
   font-family: var(--primary-font-family);
-  color: var(--primary-font-color);
+  color: var(--secondary-color);
 }
 
 .hero {
   background-image: linear-gradient(rgba(61, 22, 0, 0.6), rgba(58, 14, 0, 0.6)),
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/462/original/pexels-jessica-lewis-%F0%9F%A6%8B-thepaintedsquare-593322.jpg?1706928166");
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding: 100px 0;
+  padding: 200px 0;
   padding-bottom: 0;
 }
 .profile-pic {
@@ -69,4 +70,54 @@ h1 {
 
 .fa-linkedin {
   color: var(--primary-font-color);
+}
+
+.featured-projects {
+  color: var(--secondary-color);
+  font-size: 24px;
+  padding: 40px;
+}
+
+.image-project {
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+.project-header {
+  font-size: 50px;
+  text-align: left;
+  padding: 0;
+  margin: 20px 0;
+}
+.project-description {
+  padding: 40px 30px;
+  line-height: 2;
+}
+
+.btn-launch {
+  padding: 10px;
+  border: 1px solid var(--primary-font-color);
+  background: var(--secondary-color);
+  color: white;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.main {
+  border: 3px solid var(--secondary-color);
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .hero p {
+    font-size: 30px;
+    padding: 60px 0;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
