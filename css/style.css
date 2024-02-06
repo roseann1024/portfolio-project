@@ -134,6 +134,17 @@ h1 {
   box-shadow: var(--box-shadow);
 }
 
+.active {
+  color: var(--secondary-color) !important;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+  background-color: white;
+  border-radius: 6px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
