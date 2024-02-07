@@ -61,6 +61,9 @@ h1 {
   margin-bottom: 50px;
 }
 
+p {
+  text-align: justify;
+}
 .social-links a {
   margin: 0 20px;
   color: var(--secondary-color);
@@ -111,11 +114,14 @@ h1 {
 }
 .about-header {
   font-size: 40px;
+  padding: 0;
+  margin: 0;
 }
 
 .about-title {
   font-size: 20px;
   font-weight: bold;
+  margin-top: 30px;
 }
 .about-image {
   border-radius: 10px;
