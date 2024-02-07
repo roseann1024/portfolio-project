@@ -53,23 +53,22 @@ h1 {
   padding: 15px 30px;
   text-decoration: none;
   box-shadow: var(--box-shadow);
+  margin-bottom: 50px;
 }
 
-.social-links {
-  padding: 50px;
-  padding-bottom: 0;
+.social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  font-size: 18px;
+
+  border-radius: 100%;
+  padding: 10px 4px;
+  transition: all 100ms ease-in-out;
 }
 
-.fa-facebook {
-  color: var(--primary-font-color);
-}
-
-.fa-instagram {
-  color: var(--primary-font-color);
-}
-
-.fa-linkedin {
-  color: var(--primary-font-color);
+.social-links a:hover {
+  color: white;
+  background: var(--secondary-color);
 }
 
 .featured-projects {
@@ -102,9 +101,6 @@ h1 {
   font-size: 16px;
 }
 
-.main {
-  border: 3px solid var(--secondary-color);
-}
 .about-section {
   padding: 50px;
 }
@@ -143,6 +139,34 @@ h1 {
   color: var(--secondary-color) !important;
   background-color: white;
   border-radius: 6px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .contact-box {
+  padding: 30px;
+  background: #fff4e1;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+footer .btn-contact {
+  border: 1px solid var(--primary-font-color);
+  background: var(--secondary-color);
+  color: white;
+  font-size: 16px;
+  padding: 16px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+footer .email-link:hover {
+  color: white;
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 20px;
 }
 
 @media (max-width: 960px) {
