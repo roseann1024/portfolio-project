@@ -167,6 +167,7 @@ footer .btn-contact {
   color: white;
   font-size: 16px;
   padding: 16px;
+  margin-top: 18px;
 }
 
 footer .email-link {
@@ -239,9 +240,34 @@ footer h3 {
 
   .about-section {
     text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
   }
 
   .about-image {
     text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .contact-box {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  footer p {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  footer h3 {
+    font-family: var(--secondary-font-family);
+    font-size: 28px;
+  }
+
+  .btn-contact {
+    margin: 0;
+  }
+  .email-link {
+    font-size: 16px;
   }
 }
