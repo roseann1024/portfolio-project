@@ -64,6 +64,7 @@ h1 {
 p {
   text-align: justify;
 }
+
 .social-links a {
   margin: 0 20px;
   color: var(--secondary-color);
